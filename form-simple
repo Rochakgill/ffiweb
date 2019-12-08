@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Testing</title>
+	<style type="text/css">
+		#form {
+		   border: solid 3px;
+		   border-color: grey;
+			 border-radius: 25px;
+		   padding: 2%;
+		   left: 50%;
+		   background-color:rgba(220,220,220,0.9);
+	       top: 50%;
+	       position: absolute;
+		   -webkit-transform: translate3d(-50%, -50%, 0);
+		   -moz-transform: translate3d(-50%, -50%, 0);
+		   transform: translate3d(-50%, -50%, 0);
+		   -webkit-box-shadow: 0 8px 6px -6px black;
+	   	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 15px 20px -6px black;
+		}
+	</style>
+</head>
+<body>
+	<div id = "parent">
+		<form id = "form">
+			<b><center><p style="color: red;">Login Form</p></center></b>
+			<p>Email: <input type="Email" name="name" width="auto"></br></br></p>
+			<p>OTP &nbsp;: <input type="password" name="password"></br></p>
+		</form>
+	</div>
+</body>
+</html>
